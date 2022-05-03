@@ -1,0 +1,7 @@
+{% extends 'blog/base.html' %}
+
+{% block title %}Выход{% endblock %}
+
+{% block content %}
+    <p>Вы вышли с аккаунта. <a href="{% url 'post_list' %}">Вернутся на главную страницу.</a></p>
+{% endblock %}
